@@ -18,6 +18,8 @@ var mockResponse = function respond(req, res, next) {
     res.send(200);
 };
 
+return;
+
 ///--- Tests
 
 test('render route', function(t) {
